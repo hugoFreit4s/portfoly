@@ -1,0 +1,33 @@
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilepic {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.name {
+    font-family: 'Rochester', cursive;
+    color: white;
+    font-size: 40px;
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 13px;
+}
+
+.texts {
+    display: 'flex';
+    flex-direction: 'column';
+    line-height: 20px;
+    padding-top: '80px';
+    padding-bottom: '20px';
+    text-align: center;
+}

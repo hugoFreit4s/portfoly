@@ -1,4 +1,5 @@
 import './App.css';
+import Dados from './components/Dados';
 
 function App() {
   function handleClick(){
@@ -12,11 +13,7 @@ function App() {
         Seu navegador não suporta vídeos HTML5.
       </video>
       <div className="square">
-        <div className="profilepic">
-          <img id="profile-pic" src="profile-pic.jpg" />
-          <h1 id="name">Hugo de Freitas</h1>
-          <h2 id="title">Jr. Fullstack Developer</h2>
-        </div>
+        <Dados />
         <div className="projects-social">
           <div className="buttons">
             <div className="button1">
